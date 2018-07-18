@@ -3,7 +3,7 @@ services:
   web:
     build: ./web
     volumes:
-      - ./web/:/web_container/
+      - ./project/:/web_container/
     ports:
       - "8000:8000"
     restart: always
